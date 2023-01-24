@@ -10,13 +10,15 @@ public class JhooqDockerDemoController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello - Jhooq-k8s i Have updated the message";
+        return "Hello!! i Have updated the message";
 
     }
 
     @GetMapping("/test")
     public String test()
     {
-        return "Yo! Iam RoPadia";
+        return "Yo!!! I am RoPadia The Legend!! of north wuth my henchman SAYON The GREAT!! Give us your lunch money";
     }
+
+
 }
