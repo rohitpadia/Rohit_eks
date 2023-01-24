@@ -10,14 +10,14 @@ public class JhooqDockerDemoController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello!! i Have updated the message";
+        return "Hello!! I solve leetcode";
 
     }
 
     @GetMapping("/test")
     public String test()
     {
-        return "Yo!!! I am RoPadia The Legend!! of north wuth my henchman SAYON The GREAT!! Give us your lunch money";
+        return "Yo!!! I am RoPadia The Legend!! of north with my henchman SAYON The GREAT!! Give us your lunch money";
     }
 
 
