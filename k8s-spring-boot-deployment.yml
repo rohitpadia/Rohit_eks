@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot
+          imagePullPolicy: Always
           image: rohitpadia/dockertesting_123:jhooq-docker-demo
           ports:
             - containerPort: 8080
