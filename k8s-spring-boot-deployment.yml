@@ -15,7 +15,7 @@ spec:
       containers:
         - name: springboot
           image: rohitpadia/dockertesting_123:latest
-          imagePullPolicy: Always
+          imagePullPolicy: "Always"
           ports:
             - containerPort: 8080
           env:
