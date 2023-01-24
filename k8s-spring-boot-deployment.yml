@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: rohitpadia/dockertesting_123:latest
+          image: public.ecr.aws/q7j1f7s0/dockertesting_123:latest
           imagePullPolicy: "Always"
           ports:
             - containerPort: 8080
